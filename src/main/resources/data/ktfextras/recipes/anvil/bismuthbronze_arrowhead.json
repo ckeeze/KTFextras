@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/bismuth_bronze"
+  },
+  "result": {
+    "count": 2,
+    "item": "ktfextras:bismuth_bronze_arrowhead"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "hit_second_last",
+    "draw_third_last"
+  ]
+}

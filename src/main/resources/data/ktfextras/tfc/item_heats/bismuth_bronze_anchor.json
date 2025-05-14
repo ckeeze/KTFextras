@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "ktfextras:bismuth_bronze_anchor"
+  },
+  "heat_capacity": 11.429,
+  "forging_temperature": 591,
+  "welding_temperature": 788
+}

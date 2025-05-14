@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "values": [
+    "ktfextras:bronze_anchor",
+    "ktfextras:black_bronze_anchor",
+    "ktfextras:bismuth_bronze_anchor",
+    "ktfextras:wrought_iron_anchor",
+    "ktfextras:steel_anchor"
+  ]
+}

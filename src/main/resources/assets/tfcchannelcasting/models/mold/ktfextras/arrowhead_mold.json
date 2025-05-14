@@ -1,0 +1,23 @@
+{
+  "loader": "tfcchannelcasting:mold",
+  "textures": {
+    "0": "tfcchannelcasting:block/mold_texture",
+    "particle": "tfcchannelcasting:block/mold_texture"
+  },
+  "pattern": [
+    "XXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXX",
+    "XXXXXX XXXXXXX",
+    "XXXXX   XXXXXX",
+    "XXXX     XXXXX",
+    "XXX       XXXX",
+    "XX  XX XX  XXX",
+    "XXXXXX XXXXXXX",
+    "XXXXXX XXXXXXX",
+    "XXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXX"
+  ]
+}

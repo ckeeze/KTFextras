@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "values": [
+    "tfc:wood/planks/oak",
+    "tfc:wood/planks/sycamore",
+    "tfc:wood/planks/douglas_fir",
+    "tfc:wood/planks/maple"
+  ]
+}

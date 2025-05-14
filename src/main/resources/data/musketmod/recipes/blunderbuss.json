@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IF ",
+    " P "
+  ],
+  "key": {
+    "I": {
+      "item": "ktfextras:musket_barrel"
+    },
+    "F": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "musketmod:blunderbuss"
+  }
+}

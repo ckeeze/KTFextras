@@ -1,0 +1,28 @@
+{
+  "item.ktfextras.small_barrel": "Small Barrel",
+  "item.ktfextras.musket_barrel": "Musket Barrel",
+  "item.ktfextras.brass_cannon_barrel": "Brass Cannon Barrel",
+  "item.ktfextras.cast_iron_cannon_barrel": "Cast Iron Cannon Barrel",
+  "item.ktfextras.unfired_cannon_mold": "Unfired Cannon Mold",
+  "item.ktfextras.unfinished_cannon_mold": "Unfinished Cannon Mold",
+  "item.ktfextras.reinforced_cannon_mold": "Reinforced Cannon Mold",
+  "item.ktfextras.arrowhead_mold": "Arrow Head Mold",
+  "item.ktfextras.unfired_arrowhead_mold": "Unfired Arrow Head Mold",
+  "item.ktfextras.unfinished_bronze_anchor": "Unfinished Bronze Anchor",
+  "item.ktfextras.unfinished_black_bronze_anchor": "Unfinished Black Bronze Anchor",
+  "item.ktfextras.unfinished_bismuth_bronze_anchor": "Unfinished Bismuth Bronze Anchor",
+  "item.ktfextras.unfinished_wrought_iron_anchor": "Unfinished Wrought Iron Anchor",
+  "item.ktfextras.unfinished_steel_anchor": "Unfinished Steel Anchor",
+  "item.ktfextras.bronze_anchor": "Bronze Anchor",
+  "item.ktfextras.black_bronze_anchor": "Black Bronze Anchor",
+  "item.ktfextras.bismuth_bronze_anchor": "Bismuth Bronze Anchor",
+  "item.ktfextras.wrought_iron_anchor": "Wrought Iron Anchor",
+  "item.ktfextras.steel_anchor": "Steel Anchor",
+  "item.ktfextras.bronze_arrowhead": "Bronze Arrow Head",
+  "item.ktfextras.black_bronze_arrowhead": "Black Bronze Arrow Head",
+  "item.ktfextras.bismuth_bronze_arrowhead": "Bismuth Bronze Arrow Head",
+  "item.ktfextras.copper_arrowhead": "Copper Arrow Head",
+  "item.ktfextras.steel_arrowhead": "Steel Arrow Head",
+
+  "creativetab.ktfextras.items": "KTFextras"
+}

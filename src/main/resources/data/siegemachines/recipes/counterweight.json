@@ -1,0 +1,26 @@
+{
+  "type": "siegemachines:siege_workbench",
+  "pattern": [
+    "bsb",
+    "ibi",
+    "   "
+  ],
+  "key": {
+    "b": {
+      "item": "siegemachines:beam",
+      "count": 3
+    },
+    "s": {
+      "tag": "forge:cobblestone",
+      "count": 4
+    },
+    "i": {
+      "item": "tfc:metal/ingot/steel",
+      "count": 2
+    }
+  },
+  "result": {
+    "item": "siegemachines:counterweight",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:casting",
+  "mold": {
+    "item": "ktfextras:reinforced_cannon_mold"
+  },
+  "fluid": {
+    "ingredient": "tfc:metal/brass",
+    "amount": 2400
+  },
+  "result": {
+    "item": "ktfextras:brass_cannon_barrel"
+  },
+  "break_chance": 0.05
+}

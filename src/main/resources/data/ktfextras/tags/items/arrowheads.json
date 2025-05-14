@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "values": [
+    "ktfextras:copper_arrowhead",
+    "ktfextras:bronze_arrowhead",
+    "ktfextras:black_bronze_arrowhead",
+    "ktfextras:bismuth_bronze_arrowhead",
+    "ktfextras:wrought_iron_arrowhead",
+    "ktfextras:steel_arrowhead"
+  ]
+}

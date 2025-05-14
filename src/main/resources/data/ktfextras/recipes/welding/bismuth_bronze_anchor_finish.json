@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "ktfextras:unfinished_bismuth_bronze_anchor"
+  },
+  "result": {
+    "count": 1,
+    "item": "ktfextras:bismuth_bronze_anchor"
+  },
+  "second_input": {
+    "item": "tfc:metal/double_ingot/bismuth_bronze"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "siegemachines:siege_workbench",
+  "pattern": [
+    " bs",
+    "pBi",
+    "lr "
+  ],
+  "key": {
+    "B": {
+      "item": "siegemachines:turret_base",
+      "count": 10
+    },
+    "b": {
+      "item": "siegemachines:beam",
+      "count": 18
+    },
+    "p": {
+      "tag": "minecraft:planks",
+      "count": 12
+    },
+    "i": {
+      "item": "tfc:metal/ingot/wrought_iron",
+      "count": 7
+    },
+    "s": {
+      "tag": "forge:string",
+      "count": 14
+    },
+    "l": {
+      "item": "minecraft:leather",
+      "count": 6
+    },
+    "r": {
+      "tag": "forge:rods/wooden",
+      "count": 6
+    }
+  },
+  "result": {
+    "item": "siegemachines:catapult",
+    "count": 1
+  }
+}

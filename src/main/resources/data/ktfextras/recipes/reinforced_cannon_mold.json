@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ktfextras:unfinished_cannon_mold"
+    },
+    {
+      "tag": "forge:sheets/black_steel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "ktfextras:reinforced_cannon_mold"
+  }
+}

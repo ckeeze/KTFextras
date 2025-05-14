@@ -1,0 +1,26 @@
+{
+  "type": "siegemachines:siege_workbench",
+  "pattern": [
+    "  i",
+    " s ",
+    "f  "
+  ],
+  "key": {
+    "i": {
+      "tag": "ktfextras:arrowheads",
+      "count": 2
+    },
+    "s": {
+      "tag": "forge:rods/wooden",
+      "count": 4
+    },
+    "f": {
+      "item": "minecraft:feather",
+      "count": 4
+    }
+  },
+  "result": {
+    "item": "siegemachines:giant_arrow",
+    "count": 2
+  }
+}

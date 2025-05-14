@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "ktfextras:unfinished_wrought_iron_anchor"
+  },
+  "result": {
+    "count": 1,
+    "item": "ktfextras:wrought_iron_anchor"
+  },
+  "second_input": {
+    "item": "tfc:metal/double_ingot/wrought_iron"
+  }
+}

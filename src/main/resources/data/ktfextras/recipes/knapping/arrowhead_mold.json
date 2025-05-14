@@ -1,0 +1,16 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:clay",
+  "outside_slot_required": true,
+  "pattern": [
+    "XXXXX",
+    "X  XX",
+    "X X X",
+    "XX  X",
+    "XXXXX"
+  ],
+  "result": {
+    "item": "ktfextras:unfired_arrowhead_mold",
+    "count": 2
+  }
+}

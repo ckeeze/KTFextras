@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "ktfextras:small_barrel"
+  },
+  "result": {
+    "count": 1,
+    "item": "ktfextras:musket_barrel"
+  },
+  "second_input": {
+    "item": "ktfextras:small_barrel"
+  }
+}

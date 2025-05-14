@@ -1,0 +1,42 @@
+{
+  "type": "siegemachines:siege_workbench",
+  "pattern": [
+    "mb ",
+    "pBi",
+    "lw "
+  ],
+  "key": {
+    "m": {
+      "item": "ktfextras:cast_iron_cannon_barrel",
+      "count": 1
+    },
+    "B": {
+      "item": "siegemachines:turret_base",
+      "count": 4
+    },
+    "b": {
+      "item": "siegemachines:beam",
+      "count": 10
+    },
+    "p": {
+      "tag": "minecraft:planks",
+      "count": 1
+    },
+    "i": {
+      "item": "tfc:metal/ingot/black_steel",
+      "count": 6
+    },
+    "l": {
+      "item": "minecraft:leather",
+      "count": 2
+    },
+    "w": {
+      "item": "siegemachines:wheel",
+      "count": 2
+    }
+  },
+  "result": {
+    "item": "siegemachines:mortar",
+    "count": 1
+  }
+}

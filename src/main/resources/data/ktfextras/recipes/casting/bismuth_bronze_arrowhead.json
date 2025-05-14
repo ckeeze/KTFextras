@@ -1,0 +1,15 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:casting",
+  "mold": {
+    "item": "ktfextras:arrowhead_mold"
+  },
+  "fluid": {
+    "ingredient": "tfc:metal/bismuth_bronze",
+    "amount": 50
+  },
+  "result": {
+    "item": "ktfextras:bismuth_bronze_arrowhead"
+  },
+  "break_chance": 1
+}

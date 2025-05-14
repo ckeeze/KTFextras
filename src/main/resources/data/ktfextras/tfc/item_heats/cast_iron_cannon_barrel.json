@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "ktfextras:cast_iron_cannon_barrel"
+  },
+  "heat_capacity": 40.0,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

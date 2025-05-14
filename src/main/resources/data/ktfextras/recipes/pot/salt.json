@@ -1,0 +1,16 @@
+{
+  "type": "tfc:pot",
+  "ingredients": [
+  ],
+  "fluid_ingredient": {
+    "ingredient": "tfc:salt_water",
+    "amount": 1000
+  },
+  "duration": 5000,
+  "temperature": 110,
+  "item_output": [
+    {
+      "item": "tfc:powder/salt"
+    }
+  ]
+}

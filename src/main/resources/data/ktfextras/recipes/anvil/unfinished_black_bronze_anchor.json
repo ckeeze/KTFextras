@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_ingots/black_bronze"
+  },
+  "result": {
+    "count": 1,
+    "item": "ktfextras:unfinished_black_bronze_anchor"
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "bend_not_last",
+    "draw_not_last"
+  ]
+}

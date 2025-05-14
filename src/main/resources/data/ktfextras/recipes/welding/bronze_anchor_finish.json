@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "ktfextras:unfinished_bronze_anchor"
+  },
+  "result": {
+    "count": 1,
+    "item": "ktfextras:bronze_anchor"
+  },
+  "second_input": {
+    "item": "tfc:metal/double_ingot/bronze"
+  }
+}

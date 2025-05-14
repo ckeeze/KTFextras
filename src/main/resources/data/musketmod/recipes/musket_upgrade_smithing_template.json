@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DTD",
+    "DID",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:paper"
+    },
+    "I": {
+      "tag": "forge:sheets/wrought_iron"
+    },
+    "T": {
+      "item": "ktfextras:musket_barrel"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "musketmod:musket_upgrade_smithing_template"
+  }
+}

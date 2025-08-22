@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iti",
+    "ppp"
+  ],
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "t": {
+      "tag": "tfc:workbenches"
+    },
+    "i": {
+      "item": "tfc:brass_mechanisms"
+    }
+  },
+  "result": {
+    "item": "siegemachines:siege_workbench",
+    "count": 1
+  }
+}

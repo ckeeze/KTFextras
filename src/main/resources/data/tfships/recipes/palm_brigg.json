@@ -1,0 +1,34 @@
+{
+  "type": "siegemachines:siege_workbench",
+  "pattern": [
+    "sls",
+    "cac",
+    "ppp"
+  ],
+  "key": {
+    "l": {
+      "tag": "forge:string",
+      "count": 8
+    },
+    "a": {
+      "item": "ktfextras:steel_anchor",
+      "count": 1
+    },
+    "s": {
+      "item": "smallships:sail",
+      "count": 2
+    },
+    "c": {
+      "tag": "forge:chests",
+      "count": 5
+    },
+    "p": {
+      "item": "tfc:wood/planks/palm",
+      "count": 20
+    }
+  },
+  "result": {
+    "item": "tfships:palm_brigg",
+    "count": 1
+  }
+}

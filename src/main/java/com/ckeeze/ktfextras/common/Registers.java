@@ -1,26 +1,37 @@
-package com.ckeeze.ktfextras.item;
+package com.ckeeze.ktfextras.common;
 
 import net.dries007.tfc.common.TFCTags;
 import net.dries007.tfc.common.items.MoldItem;
+import net.dries007.tfc.util.Helpers;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-
 import java.util.Locale;
+import java.util.Map;
 import java.util.function.Supplier;
 
 import static com.ckeeze.ktfextras.Config.moldArrowheadCapacity;
 import static com.ckeeze.ktfextras.Config.moldCannonCapacity;
 import static com.ckeeze.ktfextras.KTFExtras.MODID;
 
+public class Registers {
 
-public class ModItems {
-    public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
+    public static final Map<Acid, RegistryObject<LiquidBlock>> ACID = Helpers.mapOfKeys(Acid.class, fluid ->
+            registerBlock("fluid/" + fluid.getId(), () -> new LiquidBlock(ModFluids.AGED_ALCOHOL.get(fluid).source(), BlockBehaviour.Properties.copy(Blocks.WATER)))
+    );
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+    public static final Map<Acid, RegistryObject<BucketItem>> FLUID_BUCKETS = Helpers.mapOfKeys(Acid.class, fluid ->
+            registerItem("bucket/" + fluid.name(), () -> new BucketItem(ModFluids.AGED_ALCOHOL.get(fluid).source(), new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)))
+    );
 
     public static final RegistryObject<Item> SMALL_BARREL = ITEMS.register("small_barrel",
             () ->  new Item(new Item.Properties()));
@@ -36,11 +47,11 @@ public class ModItems {
     public static final RegistryObject<Item> UNFINISHED_CANNON_MOLD = ITEMS.register("unfinished_cannon_mold",
             () ->  new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> REINFORCED_CANNON_MOLD = register("reinforced_cannon_mold",
+    public static final RegistryObject<Item> REINFORCED_CANNON_MOLD = registerItem("reinforced_cannon_mold",
             () -> new MoldItem(moldCannonCapacity, TFCTags.Fluids.USABLE_IN_INGOT_MOLD, new Item.Properties()));
 
 
-    public static final RegistryObject<Item> ARROWHEAD_MOLD = register("arrowhead_mold",
+    public static final RegistryObject<Item> ARROWHEAD_MOLD = registerItem("arrowhead_mold",
             () -> new MoldItem(moldArrowheadCapacity, TFCTags.Fluids.USABLE_IN_TOOL_HEAD_MOLD, new Item.Properties()));
 
     public static final RegistryObject<Item> UNFIRED_ARROWHEAD_MOLD = ITEMS.register("unfired_arrowhead_mold",
@@ -80,11 +91,14 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_ARROWHEAD = ITEMS.register("steel_arrowhead",
             () ->  new Item(new Item.Properties()));
 
-    private static <T extends Item> RegistryObject<Item> register(String name, Supplier<T> item) {
-        return ITEMS.register(name.toLowerCase(Locale.ROOT), item);
+
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
+    {
+        return BLOCKS.register(name.toLowerCase(Locale.ROOT), block);
     }
 
-    public static void register(IEventBus eventBus){
-        ITEMS.register(eventBus);
+    private static <T extends Item> RegistryObject<T> registerItem(String name, Supplier<T> item)
+    {
+        return ITEMS.register(name.toLowerCase(Locale.ROOT), item);
     }
 }

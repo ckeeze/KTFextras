@@ -1,0 +1,17 @@
+{
+  "type": "tfc:barrel_sealed",
+  "duration": 2400,
+  "input_fluid": {
+    "amount": 600,
+    "ingredient": "ktfextras:sulfuric_acid"
+  },
+  "input_item": {
+    "ingredient": {
+      "item": "tfc:powder/salt"
+    }
+  },
+  "output_fluid": {
+    "amount": 400,
+    "fluid": "ktfextras:aqua_regia"
+  }
+}

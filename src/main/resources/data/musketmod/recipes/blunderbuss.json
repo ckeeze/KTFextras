@@ -3,9 +3,12 @@
   "category": "equipment",
   "pattern": [
     "IF ",
-    " P "
+    "AP "
   ],
   "key": {
+    "A": {
+      "item": "tfc_items:black_steel_stamen"
+    },
     "I": {
       "item": "ktfextras:musket_barrel"
     },

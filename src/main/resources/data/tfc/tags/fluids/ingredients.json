@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ktfextras:nitric_acid",
+    "ktfextras:sulfuric_acid",
+    "ktfextras:hydrochloric_acid",
+    "ktfextras:aqua_regia"
+  ]
+}

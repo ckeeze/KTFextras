@@ -1,0 +1,26 @@
+{
+  "type": "siegemachines:siege_workbench",
+  "pattern": [
+    "www",
+    "wlw",
+    "rlr"
+  ],
+  "key": {
+    "w": {
+      "item": "tfc:wool_cloth",
+      "count": 2
+    },
+    "l": {
+      "tag": "forge:stripped_logs",
+      "count": 3
+    },
+    "r": {
+      "item": "minecraft:lead",
+      "count": 3
+    }
+  },
+  "result": {
+    "item": "smallships:sail",
+    "count": 1
+  }
+}

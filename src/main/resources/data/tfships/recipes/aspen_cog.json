@@ -1,0 +1,34 @@
+{
+  "type": "siegemachines:siege_workbench",
+  "pattern": [
+    "lll",
+    "asc",
+    "ppp"
+  ],
+  "key": {
+    "l": {
+      "tag": "forge:string",
+      "count": 2
+    },
+    "a": {
+      "tag": "ktfextras:tiertwoanchors",
+      "count": 1
+    },
+    "s": {
+      "item": "smallships:sail",
+      "count": 1
+    },
+    "c": {
+      "tag": "forge:chests",
+      "count": 3
+    },
+    "p": {
+      "item": "tfc:wood/planks/aspen",
+      "count": 10
+    }
+  },
+  "result": {
+    "item": "tfships:aspen_cog",
+    "count": 1
+  }
+}

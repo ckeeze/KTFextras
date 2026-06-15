@@ -25,5 +25,21 @@
   "item.ktfextras.steel_arrowhead": "Steel Arrow Head",
   "item.ktfextras.wrought_iron_arrowhead": "Wrought Iron Arrow Head",
 
+  "item.ktfextras.bucket.hydrochloric_acid": "Acidum Salis Bucket",
+  "item.ktfextras.bucket.nitric_acid": "Aqua Fortis Bucket",
+  "item.ktfextras.bucket.sulfuric_acid": "Vitriol Bucket",
+  "item.ktfextras.bucket.aqua_regia": "Aqua Regia Bucket",
+
+  "fluid.ktfextras.aqua_regia": "Aqua Regia",
+  "fluid.ktfextras.nitric_acid": "Aqua Fortis",
+  "fluid.ktfextras.sulfuric_acid": "Vitriol",
+  "fluid.ktfextras.hydrochloric_acid": "Acidum Salis",
+
+  "tfc.recipe.barrel.ktfextras.barrel.aqua_regia": "Creating Aqua Regia",
+  "tfc.recipe.barrel.ktfextras.barrel.aqua_regia2": "Creating Aqua Regia",
+  "tfc.recipe.barrel.ktfextras.barrel.nitric_acid": "Creating Aqua Fortis",
+  "tfc.recipe.barrel.ktfextras.barrel.sulfuric_acid": "Creating Vitriol",
+  "tfc.recipe.barrel.ktfextras.barrel.hydrochloric_acid": "Creating Acidum Salis",
+
   "creativetab.ktfextras.items": "KTFextras"
 }

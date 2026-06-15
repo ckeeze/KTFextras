@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "ktfextras:nitric_acid",
+    "ktfextras:sulfuric_acid",
+    "ktfextras:hydrochloric_acid",
+    "ktfextras:aqua_regia"
+  ]
+}

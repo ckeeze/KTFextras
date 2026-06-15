@@ -1,0 +1,17 @@
+{
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "item": "tfc:powder/sulfur"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "minecraft:water",
+    "amount": 600
+  },
+  "output_fluid": {
+    "amount": 200,
+    "fluid": "ktfextras:sulfuric_acid"
+  },
+  "duration": 7200
+}

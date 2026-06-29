@@ -1,0 +1,60 @@
+{
+  "name": "Shipbuilding",
+  "category": "tfc:tfships",
+  "icon": "tfships:rosewood_galley",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are four kinds of ship, the cog, the brigg, drakkar, and the galley. Each kind has different capabilities and can be crafted with any wood type.$(br2)Note: If you are unable to place the ship, make sure the area is not occupied by blocks or entities!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "smallships:sail",
+      "text": "Each kind of ship has a different crafting recipe, but all require sails. Sails are crafted from wool or silk, leads, and logs. Both the sails and the ships themselves are crafted at the Siege Workbench."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:ash_cog",
+      "text": "The cog is a relatively cheap trade focused ship with decent speed and inventory size. The wood type of the planks determines the wood type of the cog."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfships:cog",
+      "scale": 0.5,
+      "name": "Ash Cog"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:ash_brigg",
+      "text": "The brigg is the largest ship with the most cannons and most seats. The wood type of the planks determines the wood type of the brigg."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfships:brigg",
+      "scale": 0.5,
+      "name": "Ash Brigg"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:ash_galley",
+      "text": "The galley is the most maneuverable and cheapest ship, but has only 1 pair of cannons, and the smallest inventory. The wood type of the planks determines the wood type of the galley."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfships:galley",
+      "scale": 0.5,
+      "name": "Ash Galley"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:spruce_drakkar",
+      "text": "The Drakkar is the most armored ship and can travel trough Ice, it's survivability can be increased by putting shields on it. The wood type of the planks determines the wood type of the Drakkar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "All ships can be customized with dyes and banners. You can use $(k:use) on the ship with a dye in hand to dye the sails and rigging. Similarly, using $(k:use) on the ship with a banner in hand will attach the banner horizontally to the top of the mast, like a flag. All interactions with the ship must target the ship's hitbox, around the hull."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 0
+}

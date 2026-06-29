@@ -2,7 +2,7 @@
   "type": "tfc:barrel_sealed",
   "duration": 2400,
   "input_fluid": {
-    "amount": 600,
+    "amount": 2000,
     "ingredient": "ktfextras:sulfuric_acid"
   },
   "input_item": {
@@ -11,7 +11,7 @@
     }
   },
   "output_fluid": {
-    "amount": 300,
+    "amount": 1000,
     "fluid": "ktfextras:hydrochloric_acid"
   }
 }

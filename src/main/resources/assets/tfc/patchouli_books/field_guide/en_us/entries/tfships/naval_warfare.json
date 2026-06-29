@@ -1,0 +1,37 @@
+{
+  "name": "Naval Warfare",
+  "category": "tfc:tfships",
+  "icon": "smallships:cannon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ships can be turned into weapons with the addition of cast iron cannons.$(br2)A cog can hold four cannons, a brigg can hold six cannons, and a galley can hold two cannons."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "siegemachines:siege_workbench",
+      "text": "A ship mounted cannon is crafted at the Siege Workbench with a Cast Iron Barrel."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:cannon_ball",
+      "text": "A cannon ball can be shapelessly crafted from one gunpowder and one cast iron sheet."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cannons can be mounted on a ship by using $(k:use) on the ship while holding the cannon. Note that once mounted, cannons cannot be retrieved from the ship. They can be removed by destroying the ship, but will not be dropped."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfships:cog{CannonCount:4}",
+      "scale": 0.5,
+      "name": "Cog with Cannons"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In order to fire, you first must place cannon balls into the inventory of the ship. Then, you can use $(k:jump) to fire the cannons on the side of the ship that you are looking at.$(br2)Cannon balls will explode on impact, dealing damage and destroying terrain. Additionally, any ships hit by a cannon ball will be deleted without dropping the ship item. Items in the inventory will still be dropped."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}
